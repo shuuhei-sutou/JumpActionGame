@@ -5,9 +5,8 @@
     build-mode="COLD"
     density="560dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1521181357197"
+    timestamp="1521181685138"
     token="-225931404658509750"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -19,17 +18,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="79" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
-
-    <artifact
-        location="/Users/user/Desktop/JumpActionGame/android/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/user/Desktop/JumpActionGame/android/build/outputs/apk/debug/android-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
@@ -75,15 +67,6 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1521181196992"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/user/Desktop/JumpActionGame/android/build/outputs/apk/debug/android-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
         timestamp="1521181357197"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
@@ -93,5 +76,9 @@
             location="/Users/user/Desktop/JumpActionGame/android/build/outputs/apk/debug/android-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1521181685138"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
